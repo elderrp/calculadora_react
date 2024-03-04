@@ -1,16 +1,20 @@
 .calculadora{
+    background: linear-gradient(rgb(0, 255, 191), rgb(0, 247, 255));
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 200px;
     margin: 0 auto;
-    border: solid 1px blue;
+    border: solid 1px black;
     padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .display,
  .completar-operacao{
+    opacity: 1;
+    background-color: aliceblue;
 width: 160px;
 height: 50px;
 border: 1px solid black;
@@ -27,10 +31,16 @@ overflow:auto;
 
 }
 .botoes {
-
+    background: linear-gradient(rgb(0, 255, 191), rgb(0, 247, 255));
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 10px;
+
+}
+div.botoes button:hover{
+
+    background: linear-gradient(rgb(133, 132, 197), rgb(0, 255, 64));
+
 }
 
 button  {
